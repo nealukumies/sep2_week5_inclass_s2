@@ -6,12 +6,12 @@ pipeline {
 
     environment {
      PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
-           JAVA_HOME = 'C:\\Java\\jdk-21'  // Adjust to your actual JDK pat
-        SONARQUBE_SERVER = 'SonarQubeServer'  // The name of the SonarQube server configured in Jenkins
-        SONAR_TOKEN = 'sqa_4a9cd5ae8e65c1d8a59395010075d01f8b60170e' // Store the token securely
-        DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
-        DOCKERHUB_REPO = 'oonnea/otp2_devops_demo'
-        DOCKER_IMAGE_TAG = 'latest'
+     JAVA_HOME = 'C:\\Java\\jdk-21'  // Adjust to your actual JDK pat
+     SONARQUBE_SERVER = 'SonarQubeServer'  // The name of the SonarQube server configured in Jenkins
+     SONAR_TOKEN = 'sqa_f5174ce6656f712d46b143718985ab22f30d0c96' // Store the token securely
+     DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
+     DOCKERHUB_REPO = 'oonnea/otp2_devops_demo'
+     DOCKER_IMAGE_TAG = 'latest'
 
 
     }
